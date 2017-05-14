@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Scheduler>
+
+<!-- this job will start after 10 minutes and run forever with a 1 hour and 30 minutes interval between the jobs -->
+<job id='0'>
+<day>1,2,3,4,5,6,7</day>
+<start>000100</start>
+<runtime>001000</runtime>
+<loop>-1</loop>
+<cmd>say -1 This server restarts every 4 hours</cmd>
+</job>
+
+<!-- this job will start after 30 seconds and will only run once. note that the runtime tag is ignored when loop is 0 -->
+<job id='1'>
+<day>1,2,3,4,5,6,7</day>
+<start>000105</start>
+<runtime>001000</runtime>
+<loop>-1</loop>
+<cmd>say -1 TEAMSPEAK IP  ts3.eXpoch.INFO --  Donate @ paypal.me/DonkeyPunch</cmd>
+</job>
+
+<!-- this job will start after 15 seconds and will run every 25 sec. total times the message will be show is 6 times -->
+<job id='2'>
+<day>1,2,3,4,5,6,7</day>
+<start>000110</start>
+<runtime>001000</runtime>
+<loop>-1</loop>
+<cmd>say -1 Glitching/Cheating/Hacking/Abusing/Exploiting are all BANNABLE offenses</cmd>
+</job>
+
+
+<!-- this job will start at 07:00:00 (7 am) and will repeat itself every 20 min for 3 more time. in total 4 times. will run at set time for defined days -->
+<job id='3'>
+<day>1,2,3,4,5,6,7</day>
+<start>000400</start>
+<runtime>003000</runtime>
+<loop>-1</loop>
+<cmd>say -1 Please Support the server to keep it alive and the man behind the screen! paypal.me/DonkeyPunch</cmd>
+</job>
+
+</Scheduler>

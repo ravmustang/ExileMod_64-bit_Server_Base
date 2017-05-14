@@ -1,0 +1,14 @@
+Exile Mod 64bit Base Server Layout
+
+This github repo is for use by new and even experienced server hosts / community owners.
+You are free to download, fork, edit and put up on your server to enjoy 64bit arma 3 and exile / eXpoch or any exile variant.
+
+This repo is licensed under APL-SA and is free to use / modify / redistribute
+Please pay attention and read any included licensing files for the respective addon its with.
+This repo includes files licensed outside the scope of APL-SA.
+You must follow the licensing included within the packages,
+This includes Exile / extDB3 / BattlEye / BEC
+Please refer to the Floss Exception for concerns with extDB3 licensing.
+
+
+Arma Public License Share Alike https://www.bistudio.com/community/licenses/arma-public-license-share-alike
