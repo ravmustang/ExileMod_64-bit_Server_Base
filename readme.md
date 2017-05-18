@@ -3,9 +3,9 @@
 This repo is licensed under APL-SA and is free to use / modify / redistribute
 Please pay attention and read any included licensing files for the respective addon its with.
 This repo includes files licensed outside the scope of APL-SA.
-You must follow the licensing included within the packages,
+You must follow the licensing included within the packages.
 This includes Exile / extDB3 / BattlEye / BEC
-Please refer to the Floss Exception for concerns with extDB3 licensing.
+Please download extDB3 and inlcude it following Installation step 4 below
 
 ## Details
 
@@ -26,12 +26,19 @@ Please refer to the Floss Exception for concerns with extDB3 licensing.
 	
 4. 64-bit extDB3 and Server plus Dynamic Simulation
 	- Thanks to @CloudHax and @Torndeco for their public release of their work
+	
+5. Dont forget to download ExileMod client and server files at http://www.exilemod.com/downloads/
+	- For more info on exile go here: http://www.exilemod.com/
+
+6. Dont forget to download the latest version of extDB3 at: https://bitbucket.org/torndeco/extdb3/downloads/
+	- For more info on extDB3 go here: https://bitbucket.org/torndeco/extdb3/wiki/Home
 
 ## Installation
 
 NOTES:
 			This repo is only for file structure
 			This repo does not include any EXILE client or server pbo's
+			This repo does not include any extDB3 server pbo's or dll's
 			
 1. Copy this repo to your C: drive
 
@@ -41,16 +48,18 @@ NOTES:
 	- Modify as needed C: >> ExileServers >> ExileAltis >> @ExileServer >> exile_server_config >> config.cpp
 	- PBO up the exile_server_config folder
 
-4. Setup your server name and other settings in the DonkeyPunch >> config.cfg
+4. add your @extDB3 dll and pbo where the Placeholders are located
 
-5. Add your MYSQL user and pw to the C: >> ExileServers >> ExileAltis >> @extDB3 >> extdb3-conf.ini
+5. Setup your server name and other settings in the DonkeyPunch >> config.cfg
 
-6. Right Click and Create Shortcut for C: >> ExileServers >> ExileAltis >> restartserver.bat
+6. Add your MYSQL user and pw to the C: >> ExileServers >> ExileAltis >> @extDB3 >> extdb3-conf.ini
+
+7. Right Click and Create Shortcut for C: >> ExileServers >> ExileAltis >> restartserver.bat
 	- Right Click new shortcut >> click advanced >> click Run as Administrator
 
 OPTIONAL:
 
-7. Add your purchased infiStar antihack and configure it for your needs
+8. Add your purchased infiStar antihack and configure it for your needs
 	- Locate your passwords in C: >> ExileServers >> ExileAltis >> DonkeyPunch >> config.cfg
 
 You now have a server setup on your Dedicated or PC environment.
